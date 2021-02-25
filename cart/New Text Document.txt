@@ -1,0 +1,7 @@
+include "../database-connection.php";
+
+<input type='hidden' name='code' value="<?php echo $idofproduct[$i]; ?>" />
+
+               <input type='hidden' name='category' value="<?php echo $categoryofproduct[$i]; ?>"/>
+
+              <button type='submit' name='submit' class='buy'>ADD TO CARt</button> 
